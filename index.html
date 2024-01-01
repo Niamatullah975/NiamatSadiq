@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niamat.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <img src="images/my-logo.jpg" alt="" class="logo">
+                <ul id="sidemenue">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my-work">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="colsemenue()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenue()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Niamatullah</span> <br>Sadiq From Afghanistan</h1>
+            </div>
+        </div>
+    </section>
+    <!-- ------About----- -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/my-pic4.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Niamtullah Sadiq from Afghanistan. I am a passonate Web Developer.I love coding, I have done many self projects for experience. I hven't worked with any organization yet. but, I hope I will get highly paid jobs in the future.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <Span>UI/UX</Span><br>
+                                Designing Web/App interfaces <small>(in progress)</small>
+                            </li>
+                            <li>
+                                <Span>Web Development</Span><br>
+                                 Web app Development
+                            </li>
+                            <li>
+                                <Span>App Development</Span><br>
+                                Buliding Android/ios apps<small> (in progress)</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <Span>UI/UX</Span><br>
+                                Haven't learned yet.
+                            </li>
+                            <li>
+                                <Span>Web Development</Span><br>
+                                 working with Noor Academy <small>(for experience)</small>
+                            </li>
+                            <li>
+                                <Span>App Development</Span><br>
+                                Havne't learnt yet.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <Span>Web Development</Span><br>
+                                At Noor Academy & online
+                            </li>
+                            <li>
+                                <Span>University</Span><br>
+                                 Khurasan University IT & Network department.
+                            </li>
+                            <li>
+                                <Span>English language</Span><br>
+                                AT Khurasan University DEL department.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <Section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-cards">
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h1 class="card-header">Front end Web Design</h1>
+                    <p>We Design Your front-end design of your website in a week, with high level of UI & UX .</p>
+                    <a href="#">Learn more....</a>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-crop-alt"></i>
+                    <h1 class="card-header">Web Development</h1> 
+                    <p>We Develope your website for you from scratch to end in a month with one year free help.
+                    </p>
+                     <small>(coming soon)</small> <br>
+                    <a href="#">Learn more....</a>
+                </div>
+    
+                <div class="card">
+                    <i class="fab fa-app-store"></i>
+                    <h1 class="card-header">Mobile Applications</h1> 
+                    <p>
+                        Web Develope both ios & Android Applications for your bussiness and personal use.
+                    </p><small>(coming soon)</small> <br>
+                    <a href="#">Learn more....</a>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- --------My Work-------- -->
+    <section id="my-work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/afghan-news.PNG" alt="">
+                    <div class="layer">
+                        <h3>Afghan News</h3>
+                        <p>This Website is Created just by HTML and CSS,it is responsive too.</p>
+                        <a href="https://niamatullah975.github.io/Afghan-News/">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/noor-academy.PNG" alt="">
+                    <div class="layer">
+                        <h3>Noor Academy</h3>
+                        <p>This Website is Created by bootstrap.</p>
+                        <a href="https://niamatullah975.github.io/Noor-Academy/">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pharmacy pic.PNG" alt="">
+                    <div class="layer">
+                        <h3>Phramacy managment System</h3>
+                        <p>THis Website is create by HTML and CSS, This is my very first project.</p>
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">See more...</button>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>
+                        <i class="fas fa-paper-plane"></i>
+                        niamatu975@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone-square-alt"></i>
+                        0784611919
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/niam0t?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/Niamatullah975"><i class="fa-brands fa-github ml-10"></i></a>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fniamatullah-khan-sadaq-hasas-464799203%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app%26fbclid%3DIwAR0RpxU0CMRpQYjMFKdxGSPfBXPHCH97K2VDMVzRNU10RLbtBTY7g62JgdU&h=AT0RqCOB2idAQNpW6eXtNYSD2hxHH3ceLDh23rnzajoU_aCdAbaT4iXaGjzGFkAmNpoP8VrlrTs3auHxDFE3Xq6g1_8ZJIeEfZwzI6i3eLnOyriX1gDzkRXEr22ORp6cR2PKfw"><i class="fab fa-linkedin-in ml-10"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Niamatullah's new CV.pdf" class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" id="" cols="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">Copyright © Niamatullah & all rights reserved</div>
+    </section>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links"); 
+        var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemen = document.getElementById("sidemenue");
+        function openmenue(){
+            sidemen.style.right="0";
+        }
+        function colsemenue(){
+            sidemen.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbynlGO5_PbUnuUhPe47C5wBGyG-uk2Z73AXPpSUqlFgv5NkSmtsG3xZxo_1uezBbNQ5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>  {
+                msg.innerHTML = "Message sent succefully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            }
+            )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
